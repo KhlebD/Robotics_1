@@ -1,0 +1,9 @@
+int64 location_x
+int64 location_y
+string color
+char letter
+
+---
+
+string result
+

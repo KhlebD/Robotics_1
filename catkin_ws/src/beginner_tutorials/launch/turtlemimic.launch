@@ -1,0 +1,22 @@
+<launch>
+
+  <group ns="turtlesim1">
+    <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+  </group>
+
+  <group ns="turtle_letters_srv">
+    <node pkg="beginner_tutorials" name="letters" type="turtle_letters_srv"/>
+  </group>
+  
+  <group ns="turtle_history_srv">
+    <node pkg="beginner_tutorials" name="history" type="turtle_history_srv"/>
+  </group>
+  
+  <group ns="turtle_word">
+    <node pkg="beginner_tutorials" name="word" type="turtle_word"/>
+  </group>
+  
+
+
+</launch>
+
